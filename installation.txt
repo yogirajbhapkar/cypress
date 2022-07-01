@@ -1,0 +1,20 @@
+npm init : Initialises Node Package Manager. Npm is a tool that use to install packages. (globally)
+           Finally, it asks – Is this OK? (yes). Then, hit [Enter].
+           Now the file named package.json is automatically created
+
+Install Cypress : 
+Cypress is a NodeJS based automation tool, available as an npm package.
+Cypress can be also downloaded as an installer, but the recommended way is to install from npm.
+
+npm install cypress@9.7 :It will install cypress Package
+
+Once Cypress packages have been installed, Cypress, by default, configures some folders. 
+Typically 4 folders will be created inside the Cypress folder namely plugins, support, integration, fixtures
+Integration: This is an important folder. All tests should sit inside this folder, because, by default, 
+Cypress assumes that this is the test folder. Testers can create any number of subfolders inside this.
+
+npm install npx : It will istall npx.  Npx is a tool that use to execute packages.
+
+npx cypress open : 
+On entering the above command, installation begins
+Ii will open code runner
